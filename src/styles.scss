@@ -14,6 +14,12 @@
     }
 }
 
+body{
+    margin: 0;
+}
+
+
+
 
 .formContainer{
     background-color: #a7bcff;
@@ -234,7 +240,7 @@
                 background-color: #ddddf7;
                 padding: 10px;
                 height: calc(100% - 160px);
-                overflow: scroll;
+                overflow-y: scroll;
 
                 .message{
                     display: flex;
